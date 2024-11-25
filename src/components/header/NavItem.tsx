@@ -19,7 +19,7 @@ const NavItem = (props: {
         props.color,
       )}
     >
-      <Link href={props.url} className="p-4 w-full h-full flex flex-col justify-between gap-4">
+      <Link href={props.url} className="min-w-40 lg:w-full p-4 h-full flex flex-col justify-between gap-4">
         <span className="text-xs">
           {props.idx < 10 ? "0" + props.idx.toString() : props.idx}
         </span>
